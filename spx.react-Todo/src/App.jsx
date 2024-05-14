@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './style.css'
+import SimpleCharts from './componenets/charts'
 
 
 //APP Component
@@ -74,5 +75,6 @@ return <>
           )
     })}
   </ul>
+  <SimpleCharts></SimpleCharts>
 </>
 }
